@@ -50,7 +50,7 @@ function idnowp_shortcode($attr, $content)
     
     ob_start();
 ?>
-<iframe src="<?php echo $content ?>?_t=embed&width=<?php echo $attr['width']; ?>&height=<?php echo $attr['height']; ?>" seamless style="border: 0px; overflow: hidden; width: <?php echo $attr['width']; ?>px; height: <?php echo $attr['height']; ?>px;"><iframe>';
+<iframe src="<?php echo $content ?>?_t=embed&width=<?php echo $attr['width']; ?>&height=<?php echo $attr['height']; ?>" seamless style="border: 0px; overflow: hidden; width: <?php echo $attr['width']; ?>px; height: <?php echo $attr['height']; ?>px;"></iframe>
 <?php
     return ob_get_clean();
 }
