@@ -17,11 +17,11 @@ This was mainly written to scratch an itch.
 Once installed you will be able to link to an idno post by using the following
 short code:
 
-[idno]post permalink url[/idno]
+[known]post permalink url[/known]
 
 You can also specify width and height of the embed, e.g.
 
-[idno width="xxx" height="yyy"]permalink url[/idno]
+[known width="xxx" height="yyy"]permalink url[/known]
 
 == Installation ==
 
