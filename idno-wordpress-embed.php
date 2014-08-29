@@ -25,7 +25,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
-define('IDNOWORDPRESS_VERSION', '1.0');
+define('IDNOWORDPRESS_VERSION', '1.1');
 
 /**
  * Init the  plugin
@@ -34,6 +34,7 @@ function idnowp_init()
 {
 	// Add shortcodes
 	add_shortcode('idno', 'idnowp_shortcode');
+	add_shortcode('known', 'idnowp_shortcode');
 }
 
 /**
